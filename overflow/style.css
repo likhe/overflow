@@ -1,0 +1,22 @@
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+li {
+  width: auto;
+  padding: 25px;
+  float:left;
+  list-style: none;
+  background-color: gold;
+  font: Garamond 40px;
+  text-align: center;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
