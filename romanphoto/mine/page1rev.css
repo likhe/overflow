@@ -1,0 +1,59 @@
+container {
+
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+container * {
+ text-align: center;
+}
+  .one {
+    width: 256px;
+    height: 256px;
+    background-color: red;
+    order: 1;
+  }
+  .two {
+    width: 256px;
+    height: 256px;
+    background-color: blue;
+    order: 2;
+  }
+  .three {
+    width: 256px;
+    height: 256px;
+    background-color: green;
+    order: 3;
+
+  }
+  .four {
+    width: 256px;
+    height: 256px;
+    background-color: blue;
+    order: 4;
+
+  }
+  .five {
+    width: 256px;
+    height: 256px;
+    background-color: yellow;
+	  order: 5;
+}
+  .six {
+    width: 256px;
+    height: 256px;
+    background-color: red;
+    order: 6;
+}
+
+img {
+  margin: 5px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+/*Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help*/
